@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Grid_Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Prep-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.2.1-Preparation---Template---Option-3.1" transform="translate(-20.000000, -10.000000)" fill="#FFFFFF">
+            <g id="Grid_Icon" transform="translate(20.000000, 10.000000)">
+                <rect id="Rectangle-6" x="0" y="0" width="4.34782609" height="4.34782609" rx="2.17391304"></rect>
+                <rect id="Rectangle-6" x="7.82608696" y="0" width="4.34782609" height="4.34782609" rx="2.17391304"></rect>
+                <rect id="Rectangle-6" x="15.6521739" y="0" width="4.34782609" height="4.34782609" rx="2.17391304"></rect>
+                <rect id="Rectangle-6" x="0" y="7.82608696" width="4.34782609" height="4.34782609" rx="2.17391304"></rect>
+                <rect id="Rectangle-6" x="7.82608696" y="7.82608696" width="4.34782609" height="4.34782609" rx="2.17391304"></rect>
+                <rect id="Rectangle-6" x="15.6521739" y="7.82608696" width="4.34782609" height="4.34782609" rx="2.17391304"></rect>
+                <rect id="Rectangle-6" x="0" y="15.6521739" width="4.34782609" height="4.34782609" rx="2.17391304"></rect>
+                <rect id="Rectangle-6" x="7.82608696" y="15.6521739" width="4.34782609" height="4.34782609" rx="2.17391304"></rect>
+                <rect id="Rectangle-6" x="15.6521739" y="15.6521739" width="4.34782609" height="4.34782609" rx="2.17391304"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

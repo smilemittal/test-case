@@ -1,0 +1,41 @@
+runtime: php74
+
+env_variables:
+  APP_ENV: local
+  APP_DEBUG: true
+  APP_KEY: "base64:FqwXmLtL6szdWqIVydb7nKs2eyvHib4lf6d5l6A/XW4="
+  APP_STORAGE: "/tmp"
+  VIEW_COMPILED_PATH: "/tmp"
+
+  CACHE_DRIVER: database
+
+  SESSION_DRIVER: database
+  APP_LOG: daily
+  APP_TIMEZONE: UTC
+
+  DB_CONNECTION: mysql
+  DB_DATABASE: kannexa
+  DB_USERNAME: root
+  DB_PASSWORD: 6jb7vDLgwzpa3s46
+  DB_SOCKET: "/cloudsql/kannexa-dev-proj-001:us-central1:kannexa-production"
+
+  QUEUE_DRIVER: database
+  MAIL_MAILER: smtp
+  MAIL_HOST: smtp.mailtrap.io
+  MAIL_PORT: 2525
+  MAIL_USERNAME: b415171f630584
+  MAIL_PASSWORD: a869ec0b59e771
+  MAIL_ENCRYPTION: tls
+  MAIL_FROM_ADDRESS: support@kannexa.com
+  MAIL_FROM_NAME: "${APP_NAME}"
+
+handlers:
+  - url: /(.*\.(gif|png|jpg|css|js|woff|woff2|svg|eot|ttf|otf))$
+    static_files: public/\1
+    upload: public/.*\.(gif|png|jpg|css|js|woff|woff2|svg|eot|ttf|otf)$
+
+  - url: /.*
+    secure: always
+    redirect_http_response_code: 301
+    script: auto
+
